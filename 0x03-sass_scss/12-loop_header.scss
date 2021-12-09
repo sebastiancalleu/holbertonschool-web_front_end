@@ -1,6 +1,4 @@
-$sizes: 1, 2, 3 ,4 ,5;
-
-@each $size in $sizes {
+@for $size from 1 through 5 {
     h#{$size} {
         font-size: #{$size}px;
     }
