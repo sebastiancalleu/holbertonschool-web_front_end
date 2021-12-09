@@ -1,6 +1,9 @@
+$color: #FF0000;
+$hovercolor: #FF0000;
+
 button {
-    color: #FF0000;
+    color: $color;
     &:hover {
-        color: #FF0000;
+        color: $hovercolor
     }
 }
