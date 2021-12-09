@@ -3,11 +3,11 @@
 }
 
 .succes {
-    color: #00FF00;
     @extend .info;
+    color: #00FF00;
 }
 
 .warning {
-    color: #FF0000;
     @extend .info;
+    color: #FF0000;
 }
